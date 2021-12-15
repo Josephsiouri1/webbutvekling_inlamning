@@ -87,12 +87,10 @@ input {
 button {
     width: 167px;
     height: 25px;
+    color: white;
     background-color: rgb(142, 53, 184);
 }
-button a {
-    color: white;
-    text-decoration: none;
-}
+
 section i {
     color: gold;
 }
