@@ -1,0 +1,198 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&family=Corinthia&family=Courgette&family=Festive&family=Italianno&family=Jim+Nightshade&family=Lobster&family=Meow+Script&family=Merienda&family=Sevillana&family=Shalimar&display=swap');
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background-image: url(images/bakgrund_till_article.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-x: hidden;
+}
+main {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 700px;
+}
+header {
+    display: flex;
+    background-image: url(images/matratter.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+}
+h1 a{
+    font-family: 'Architects Daughter';
+    font-size: 70px;
+    color: yellow;
+    text-decoration: none;
+}
+
+h1 {
+    color: tomato;
+    font-size: 65px;
+    font-family: 'Italianno';
+}
+
+article {
+    display: flex;
+    flex: 100%;
+    flex-wrap: wrap;
+    padding-top: 5%;
+    justify-content: space-between;
+    height: 450px;
+}
+
+article a {
+    display:flex;
+    flex: 33%;
+    height: 150px;
+    background-image: url(images/bakgrund_till_lankar.png);
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    color: seashell;
+    font-size: xx-large;
+    font-family: 'Lobster';
+    text-decoration: none;
+}
+footer {
+    display: flex;
+    background-image: url(images/bakgrund_till_footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 240px;
+    color: silver;
+    font-family: 'Courier New';
+    justify-content: space-between;
+    align-items: center;
+}
+.icons i{
+    padding: 2%;
+    color: violet;
+}
+.icons:hover i {
+    color: snow; 
+}
+h2 {
+    padding-bottom: 2%;
+}
+input {
+    display: block;
+    padding-bottom: 0.3%;
+}
+button {
+    width: 167px;
+    height: 25px;
+    background-color: rgb(142, 53, 184);
+}
+button a {
+    color: white;
+    text-decoration: none;
+}
+section i {
+    color: gold;
+}
+section p {
+    padding-bottom: 1.5%;
+}
+section {
+    margin-bottom: 2%;
+}
+
+section p i {
+    color: lightskyblue;
+}
+p span {
+    font-family: 'Courgette';
+    font-size: large;
+    color: snow;
+}
+p {
+    font-family: 'Merienda';
+    font-size: large;
+}
+.metod i {
+    color: brown;
+}
+section img {
+    border: 8px red solid;
+    border-radius: 5%;
+    width: 50%;
+}
+
+.fyllning_ingredienser i {
+    color: yellow;
+}
+
+aside {
+    font-size: xx-large;
+    font-family: Georgia;
+}
+aside i {
+    color: red;
+}
+
+.pizza_ikon i {
+    position: relative;
+    animation-name: pizza;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+@keyframes pizza {
+    0%   {color:tomato; left:0px; top:0px; transform: rotateZ(0deg);}
+    25%  {color:yellow; left:400px; top:0px; transform: rotateZ(90deg);}
+    50%  {color:purple; left:400px; top:6px; transform: rotateZ(180deg);}
+    75%  {color:aqua; left:0px; top:6px; transform: rotateZ(270deg);}
+    100% {color:tomato; left:0px; top:0px; transform: rotateZ(360deg);}
+}
+@media screen and (max-width:992px) {
+    article a {
+        flex: 50%;
+    }
+    footer {
+        margin-top: 50px;
+    }
+   
+}
+@media screen and (max-width:600px) {
+    article a {
+        flex: 100%;
+    }
+    footer {
+        margin-top: 500px;
+    }
+}
+
+.link:hover {
+    background-repeat: no-repeat;
+    background-size: cover;
+    transition: all 1s ease-in-out;
+    box-shadow: 0px 10px 5px;    
+}
+
+.link1:hover {
+    background-image: url(images/pasta.jpg);
+ 
+}
+.link2:hover {
+    background-image: url(images/pizza.jpg);
+  
+}
+.link3:hover {
+    background-image: url(images/sushi.jpg);
+}
+.link4:hover {
+    background-image: url(images/salad.jpg);                     
+}
+.link5:hover {
+    background-image: url(images/hamburgare.jpg);
+    
+}
+.link6:hover {
+    background-image: url(images/kottbullar.jpg);
+}
+
