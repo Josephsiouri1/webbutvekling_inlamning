@@ -169,6 +169,15 @@ aside i {
     footer {
         margin-top: 500px;
     }
+    .icons i {
+        font-size: 25px;
+    }
+    .icons {
+        margin-left: 10px;
+    }
+    h3 {
+        margin-left: 10px;
+    }
 }
 
 .link:hover {
