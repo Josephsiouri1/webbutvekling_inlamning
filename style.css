@@ -100,10 +100,10 @@ section i {
     font-size: var(--text_icon_size);
 }
 section p {
-    padding-bottom: 1.5%;
+    padding-bottom: 2%;
 }
 section {
-    margin-bottom: 2%;
+    margin-bottom: 2.5%;
 }
 
 section p i {
